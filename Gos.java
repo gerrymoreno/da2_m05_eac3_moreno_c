@@ -2,7 +2,7 @@ package Mamifers;
 
 public class Gos {
 	String raca;
-	int camadaMitjana;
+	float pes;
 
 	public void setRaca (String raca){
 		this.raca = raca;
@@ -12,11 +12,11 @@ public class Gos {
 		return raca;
 	}
 
-	public void setCamadaMitjana (String CamadaMitjana){
-		this.camadaMitjana=camadaMitjana;
+	public void setPes (String pes){
+		this.pes=pes;
 	}
 
-	public int getCamadaMitjana(){
-		return camadaMitjana;
+	public int getPes(){
+		return pes;
 	}
 }
